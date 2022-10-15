@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'datachildparent';
+  data = 'x';
+  updateData(item: string)
+  {
+    this.data = item;
+  }
 }
